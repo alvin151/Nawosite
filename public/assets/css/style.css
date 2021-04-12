@@ -8,6 +8,63 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+*, ::before, ::after{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.sliderr img{
+	
+	max-width: 100%;
+	display: none;
+}
+
+img .active{
+	
+	display: block;
+	animation: fade 0.8s; 
+	
+}
+
+@keyframes fade{
+	
+	from {
+	  opacity: 0;
+	}
+	to {	
+	  opacity: 1;	
+	}
+}
+
+.cont-btn{
+	
+	width: 100%;
+	height: auto;
+	border: 1px solid  #000;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center; 	
+}
+
+.btn-nav {
+	
+	font-size: 50px;
+	margin: 0 15px;
+	cursor: pointer; 	
+}
+
+
+
+
+
+
+
+
+
 body {
   background: #fff;
   color: #444;
@@ -146,8 +203,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo img {
-  padding: 0;
-  margin: 0;
+  padding: 10;
+  margin: 10;
   max-height: 40px;
 }
 
@@ -160,6 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header #logo img {
     max-height: 40px;
+    padding-top: 330px;
   }
 }
 
@@ -195,9 +253,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 10px 10px 30px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  padding: 25px 10px 10px 10px;
+  font-family: TwCenMT;
+  font-size: 17px;
    color: #555;
   white-space: nowrap;
   transition: 0.3s;
@@ -667,7 +725,7 @@ section {
 #services .box {
   padding: 0;
   box-shadow: 10px 10px 15px rgba(73, 78, 100, 0.1);
-  background: #fff;
+  background: #f3e7e6;
   transition: 0.4s;
   height: 100%;
   width: 100%;
@@ -693,7 +751,8 @@ section {
 }
 
 #services .box .icon {
-   display: inline-flex;
+
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 80px;
@@ -1390,7 +1449,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #dccdc7;
+  background: #b5a2a5;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1403,7 +1462,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #65463b;
+  background: #b5a2a5;
   color: #fff;
   text-decoration: none;
 }
@@ -1477,14 +1536,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #dccdc7;
+  background: #b5a2a5;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #65463b;
+  background: #b5a2a5;
 }
 
 #footer .copyright {

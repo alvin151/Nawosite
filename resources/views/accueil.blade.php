@@ -63,9 +63,10 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex justify-content-between">
 
-      <div id="logo">
-        <h1><a style="
-  color: #707070;" href="index.html"><img src="{{asset('assets/img/Logo.png')}}" alt="" class="img-fluid">
+      <div id="logo"  style="padding-top: 17px ; ">
+        <h1>
+
+<a style="color: #707070; font-weight: normal;" href="#"><img src="{{asset('assets/img/Logo.png')}}" alt="" class="img-fluid">
   NAWOAGENCY</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a>-->
@@ -73,11 +74,11 @@
 
        <nav id="navbar" class="navbar">
         <ul style="text-align: center">
-          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+          <li><a style="font-family: TwCenMT-Regular important!;" class="nav-link scrollto active" href="#hero">Accueil</a></li>
           <li><a class="nav-link scrollto" href="#about">A propos</a></li>
-          <li><a class="nav-link scrollto" href="#services">Nos services</a></li>
-          <li><a class="nav-link scrollto" href="#clients">Nos partenaires</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Nos réalisations</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#clients">Partenaires</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Réalisations</a></li>
           <li><a class="nav-link scrollto" href="#contact">Nous contacter</a></li>  
 
           <a type="button" href="#" data-toggle="tooltip" data-placement="bottom" title="Dévis sur-mesure"  ><img  src="{{asset('assets/img/Devis.png')}}" alt="" class="img-fluid"></a>
@@ -95,7 +96,7 @@
   <section id="hero">
 
     <div class="hero-content" data-aos="fade-up">
-      <h3 style="text-align: center; font-size:40px; font-family: TwCenMT;color: #735553; ; padding-left:320px; padding-right:100px; ">TROUVEZ DES SOLUTIONS DIGITALES <span></span><br>ADAPTES A VOTRE BUSINESS.</h3>
+      <h3 style="text-align: left; font-size:30px; font-family: TwCenMT;color: #735553; ; padding-left:320px; padding-right:100px; ">TROUVEZ DES SOLUTIONS DIGITALES <span></span><br>ADAPTES A VOTRE BUSINESS.</h3>
       <div >
         <p style="text-align: left;font-size:17px; padding-left:550px; padding-right:400px; font-family: TwCenMT; color: #735553;">A travers notre expertise dans le domaine de la tehnologie, nous vous apportons des réponses numériques innovantes. 
 				Choisir NAWOAGENCY, c'est saisir une nouvelle opportunité de plus-value digitale.</p>
@@ -106,8 +107,6 @@
     <div class="hero-slider swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide"  style="background-image: url('{{asset("assets/img/hero-carousel/vv.png")}}');"></div>
-        
-        <div class="swiper-slide" style="background-image: url('{{asset("assets/img/hero-carousel/ct.jpg")}}');"></div>
       </div>
     </div>
 
@@ -165,7 +164,7 @@
     <section id="services">
       <div class="container" data-aos="fade-up">
         <div  class="section-header">
-          <h2>Nos services</h2>
+          <h2>Services</h2>
           <p>
 		  Nous sommes spécialisés dans l'édition des solutions clé en main qui s'adaptent aux besoins de notre époques.
 			A travers notre expertise dans le domaine de la technologie, nous apportons une réponse
@@ -176,39 +175,40 @@
 
         <div class="row gy-4" style="padding-left:27px">
 
-          <div class="col-lg-2" style="margin-right:27px" data-aos="fade-up" data-aos-delay="100">
-            <div class="box" style="width:200px">
+          <div class="col-lg-2" style="margin-right:30px" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="box" style="padding-top: 17px ; width:200px" >
               <div class="icon"><img src="{{asset('assets/img/App.png')}}" alt="" class="img-fluid"></div>
          
               <p class="description">Développement d'applications</p>
             </div>
           </div>
 
-          <div class="col-lg-2" style="margin-right:27px" data-aos="fade-up" data-aos-delay="100">
-            <div class="box" style="width:200px">
+          <div class="col-lg-2" style="margin-right:30px" data-aos="fade-up" data-aos-delay="100">
+            <div class="box" style="padding-top: 17px ;width:200px">
               <div class="icon"><img src="{{asset('assets/img/aj.png')}}" alt="" class="img-fluid"></div>
          
               <p class="description">Design graphique logo, charte graphique...</p>
             </div>
           </div>
 		  
-		   <div class="col-lg-2" style="margin-right:27px" data-aos="fade-up" data-aos-delay="100">
-            <div class="box" style="width:200px">
+		   <div class="col-lg-2" style="margin-right:30px" data-aos="fade-up" data-aos-delay="100">
+            <div class="box" style="padding-top: 17px ;width:200px">
               <div class="icon"><img src="{{asset('assets/img/od.png')}}" alt="" class="img-fluid"></div>
          
               <p class="description">Solution ERP: Odoo</p>
             </div>
           </div>
 
-         <div class="col-lg-2" style="margin-right:27px" data-aos="fade-up" data-aos-delay="100">
-            <div class="box" style="width:200px">
+         <div class="col-lg-2" style="margin-right:30px" data-aos="fade-up" data-aos-delay="100">
+            <div class="box" style="padding-top: 17px ;width:200px">
               <div class="icon"><img src="{{asset('assets/img/at.png')}}" alt="" class="img-fluid"></div>
          
               <p class="description">Applications web & mobiles</p>
             </div>
           </div>
 		  <div class="col-lg-2" data-aos="fade-up" data-aos-delay="100">
-            <div class="box" style="width:200px">
+            <div class="box" style="padding-top: 17px ;width:200px">
               <div class="icon"><img src="{{asset('assets/img/ott.png')}}" alt="" class="img-fluid"></div>
          
               <p class="description">Conseils et formations</p>
@@ -224,7 +224,7 @@
 	  <section id="clients">
       <div class="container" data-aos="fade-up">
 	   <div class="section-header">
-          <h2>Nos partenaires</h2>
+          <h2>Partenaires</h2>
          
         </div>
         <div class="row">
@@ -273,11 +273,12 @@
    <section id="testimonials">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>Nos réalisations</h2>
+          <h2>Réalisations</h2>
          
         </div>
 
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+		
+		 <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
@@ -308,13 +309,9 @@
                 
               </div>
             </div><!-- End testimonial item -->
-
-           
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
     </section><!-- End Testimonials Section -->
 
@@ -506,6 +503,8 @@ height: 3px;
 
   <!-- Template Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>
+  
+ 
 
   <script>
   
